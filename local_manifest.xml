@@ -14,7 +14,7 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova" remote="Arifgansm" revision="xdroid.r" />
+        <project path="device/xiaomi/rova" name="Arifgansm/device_xiaomi_rova" remote="Arifgansm" revision="main" />
       
         <!-- vendor trees -->
         <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="caf.r" />
@@ -32,10 +32,4 @@
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/media" remote="veshrao" revision="main" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/audio" remote="veshrao" revision="main" />
         
-        <!-- remove frameworks native -->
-        <remove-project name="xd_frameworks_native" />
-        
-        <!-- clone frameworks native -->
-       <project path="frameworks/native" name="veshrao/xd_frameworks_native" remote="veshrao" revision="eleven" />
-
 </manifest>
