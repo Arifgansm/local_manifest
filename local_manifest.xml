@@ -22,14 +22,4 @@
         <!-- kernel trees -->
         <project path="kernel/xiaomi/rova" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master" />
         
-         <!-- remove hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
-
-        <!-- clone hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/display" remote="veshrao" revision="main" />
-        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/media" remote="veshrao" revision="main" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/audio" remote="veshrao" revision="main" />
-        
 </manifest>
